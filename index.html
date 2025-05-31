@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Automation and Training Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <script>
+    // Dark mode toggle
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .dark {
+      background-color: #1a202c;
+      color: #f7fafc;
+    }
+    .dark .bg-gray-100 { background-color: #2d3748; }
+    .dark .bg-white { background-color: #4a5568; color: #f7fafc; }
+    .dark .text-gray-900 { color: #f7fafc; }
+    .dark .text-white { color: #edf2f7; }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans fade-in">
+  <!-- Dark Mode Toggle -->
+  <div class="text-right p-4">
+    <button onclick="toggleDarkMode()" class="bg-gray-200 text-sm px-3 py-1 rounded">Toggle Dark Mode</button>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-orange-500 text-white p-10 text-center">
+    <img src="logo.png" alt="SATS Logo" class="mx-auto w-24 mb-4">
+    <h1 class="text-4xl font-bold">Smart Automation and Training Solutions</h1>
+    <p class="text-lg mt-2">Empowering Businesses, One SAT at a Time</p>
+    <a href="#contact" class="mt-6 inline-block bg-white text-orange-500 font-semibold py-2 px-6 rounded-full">Let's Talk</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="p-10 text-center max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">About SATS</h2>
+    <p>We help businesses streamline workflows and boost productivity through powerful automation using Microsoft Power Platform—fueled by the values of Bitcoin: transparency, decentralization, and sovereignty.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-gray-100 p-10 text-center">
+    <h2 class="text-2xl font-bold mb-6">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-4 bg-white rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Automation Consulting</h3>
+        <p>Streamline operations with smart Power Platform solutions.</p>
+      </div>
+      <div class="p-4 bg-white rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Power Platform Training</h3>
+        <p>Upskill your team with hands-on, real-world Power Apps and Power Automate sessions.</p>
+      </div>
+      <div class="p-4 bg-white rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Bitcoin Integration</h3>
+        <p>Incorporate BTC payments and Lightning automations in your business stack.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Section -->
+  <section class="p-10 text-center">
+    <h2 class="text-2xl font-bold mb-4">Support or Pay with Bitcoin via Strike</h2>
+    <p class="mb-4">We proudly accept BTC via Strike. Scan or click below to send sats our way!</p>
+    <a href="https://strike.me/yourusername" target="_blank" class="inline-block bg-orange-500 text-white font-semibold py-2 px-6 rounded-full">Pay with Strike</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-900 text-white p-10 text-center">
+    <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+    <p>Email: <a href="mailto:your@email.com" class="underline">your@email.com</a></p>
+    <p class="mt-2">Or book a call via Calendly: <a href="https://calendly.com/yourhandle" class="underline">calendly.com/yourhandle</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 text-sm text-gray-500">
+    &copy; 2025 Smart Automation and Training Solutions. Powered by Bitcoin.
+  </footer>
+</body>
+</html>
